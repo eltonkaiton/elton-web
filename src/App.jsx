@@ -44,7 +44,7 @@ const projects = [
   {
     name: "ComradeHub",
     type: "Student Community Platform",
-    image: "/comradehub.png",
+    image: "/Comrade Hub.png",
     description:
       "A student-focused digital platform for community engagement, campus marketplace listings, accommodation, transport, and other services.",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
@@ -52,7 +52,7 @@ const projects = [
   {
     name: "Mombasa Ferry Services",
     type: "Mobile Application & Admin Web System",
-    image: "/mombasa.png",
+    image: "/Mombasa Ferries.png",
     description:
       "A ferry service solution designed to improve passenger communication through schedules, safety notices, service information, and updates.",
     technologies: ["React Native", "Node.js", "MongoDB"],
@@ -60,7 +60,7 @@ const projects = [
   {
     name: "Sterling Marine Loss Adjustors",
     type: "Administration System",
-    image: "/sterling.png",
+    image: "/Staerlin Marine.png",
     description:
       "A web-based administration solution for organizing documentation, managing cases, and supporting reporting in maritime insurance.",
     technologies: ["React", "Node.js", "MongoDB"],
@@ -68,7 +68,7 @@ const projects = [
   {
     name: "Fanaka Arts",
     type: "Arts Management Platform",
-    image: "/fanaka.png",
+    image: "/Fanaka Arts.png",
     description:
       "A digital platform for managing actors, bookings, events, content, and administrative activities through web and mobile interfaces.",
     technologies: ["React", "React Native", "Node.js", "MongoDB"],
@@ -76,7 +76,7 @@ const projects = [
   {
     name: "Spinners Web Kenya",
     type: "E-commerce Platform",
-    image: "/spinners.png",
+    image: "/Spinners Web.png",
     description:
       "An online commerce solution designed to support product catalogues, order management, and user authentication.",
     technologies: ["React", "Node.js", "MongoDB"],
