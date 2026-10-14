@@ -48,7 +48,6 @@ const projects = [
     description:
       "A student-focused digital platform for community engagement, campus marketplace listings, accommodation, transport, and other services.",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
-    link: "https://github.com/eltonkaiton/comrade-hub",
   },
   {
     name: "Mombasa Ferry Services",
@@ -57,7 +56,6 @@ const projects = [
     description:
       "A ferry service solution designed to improve passenger communication through schedules, safety notices, service information, and updates.",
     technologies: ["React Native", "Node.js", "MongoDB"],
-    link: "https://github.com/eltonkaiton/mombasa-apk",
   },
   {
     name: "Sterling Marine Loss Adjustors",
@@ -66,7 +64,6 @@ const projects = [
     description:
       "A web-based administration solution for organizing documentation, managing cases, and supporting reporting in maritime insurance.",
     technologies: ["React", "Node.js", "MongoDB"],
-    link: "https://github.com/eltonkaiton",
   },
   {
     name: "Fanaka Arts",
@@ -75,7 +72,6 @@ const projects = [
     description:
       "A digital platform for managing actors, bookings, events, content, and administrative activities through web and mobile interfaces.",
     technologies: ["React", "React Native", "Node.js", "MongoDB"],
-    link: "https://github.com/eltonkaiton",
   },
   {
     name: "Spinners Web Kenya",
@@ -84,7 +80,6 @@ const projects = [
     description:
       "An online commerce solution designed to support product catalogues, order management, and user authentication.",
     technologies: ["React", "Node.js", "MongoDB"],
-    link: "https://github.com/eltonkaiton",
   },
 ];
 
@@ -770,31 +765,10 @@ export default function Portfolio() {
                         </span>
                       ))}
                     </div>
-                    <div className="mt-auto">
-                      <a
-                        href={project.link}
-                        className="text-success fw-bold text-decoration-none"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Explore project / GitHub →
-                      </a>
-                    </div>
                   </div>
                 </article>
               </div>
             ))}
-          </div>
-
-          <div className="text-center mt-5">
-            <a
-              href={github}
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-dark px-4 py-2"
-            >
-              View More on GitHub
-            </a>
           </div>
         </div>
       </section>
